@@ -1,0 +1,29 @@
+{
+  "name": "workernode",
+  "version": "1.0.0",
+  "description": "accepts the request from master node and logs the count of requests accepted by masternode in a file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajathongal/Gomigo_Task.git"
+  },
+  "keywords": [
+    "nodejs",
+    "rabbitmq",
+    "express"
+  ],
+  "author": "rajathongal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajathongal/Gomigo_Task/issues"
+  },
+  "homepage": "https://github.com/rajathongal/Gomigo_Task#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "nodemon": "^2.0.8"
+  }
+}
